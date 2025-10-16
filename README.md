@@ -9,8 +9,8 @@ $$M_I[l,p] = \sum_{u} \sum_{v} M_S[u,v] K_{\alpha,n}[l+u, p+v]$$,
 
 where:
 
-* $M_{I_{l,p}}$ represents the image of the **“I” photon** which is what we detect.
-* $M_{S_{u,v}}$ represents the **biological sample** illuminated by only by the **“S” photon** where $u$ and $v$ are the coordinates at the sample plane.
+* $M_I[l,p]$ represents the image of the **“I” photon** which is what we detect.
+* $M_S[u,v]$ represents the **biological sample** illuminated by only by the **“S” photon** where $u$ and $v$ are the coordinates at the sample plane.
 * $K_{\alpha,n}$ is the quantum kernel function that describes the **entanglement of the “S” and “I“ photons**.
 * $\alpha \geq 1$ is a measure of the **symmetry** in the system such that it is symmetric when $\alpha=1$ and gets less symmetric as $\alpha$ increases.
 * $n$ is the **number of entangled photons** generated in the process.
@@ -28,7 +28,7 @@ The Fourier Ring Correlation (FRC) is calculated as:
 
 $$FRC(u_r) = \frac{\sum_{u_r} \sum_{i,j \in \{u_r\}} F_1(i,j) \cdot F_2^*(i,j)}{\sqrt{\sum_{u_r} \sum_{i,j \in \{u_r\}} F_1^2(i,j) \cdot \sum_{u_r} \sum_{i,j \in \{u_r\}} F_2^2(i,j)}}$$
 
-where i and j are the indices of the pixels contained in the ${u_r}$ ring and $F_1$, $F_2$ are the Fourier images of $M_{I_{l,p}}$.
+where i and j are the indices of the pixels contained in the ${u_r}$ ring and $F_1$, $F_2$ are the Fourier images of $M_I[l,p]$.
 
 *The Gif bellow qualitatively demonstrates the relation between the FRC score and the resolution (which is inversely related to the ring size in Fourier space).*
 
