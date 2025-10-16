@@ -5,12 +5,12 @@ In this work (see 'biological simulation demo' and 'count rate simulation') I de
 
 The image generated can be most generally described by a formula:
 
-$$F_I[i,j] = \sum_{u} \sum_{v} F_S[u,v] K_{\alpha,n}[i+u, j+v]$$,
+$$M_I[l,p] = \sum_{u} \sum_{v} M_S[u,v] K_{\alpha,n}[l+u, p+v]$$,
 
 where:
 
-* $F_{I_{i,j}}$ represents the image of the **“I” photon** which is what we detect.
-* $F_{S_{u,v}}$ represents the **biological sample** illuminated by only by the **“S” photon** where $u$ and $v$ are the coordinates at the sample plane.
+* $M_{I_{l,p}}$ represents the image of the **“I” photon** which is what we detect.
+* $M_{S_{u,v}}$ represents the **biological sample** illuminated by only by the **“S” photon** where $u$ and $v$ are the coordinates at the sample plane.
 * $K_{\alpha,n}$ is the quantum kernel function that describes the **entanglement of the “S” and “I“ photons**.
 * $\alpha \geq 1$ is a measure of the **symmetry** in the system such that it is symmetric when $\alpha=1$ and gets less symmetric as $\alpha$ increases.
 * $n$ is the **number of entangled photons** generated in the process.
@@ -20,7 +20,7 @@ where:
 
 To investigate the trade-off mentioned above, we use a method called **Fourier Ring Correlation ($\text{FRC}$)**.
 
-In $\text{FRC}$ we generate two independent images of the same sample, transform them to Fourier space and then *calculate the **correlation** between the two Fourier images for each ring in the Fourier image*. The ring’s radius represents spatial frequency and so it is inversely related to the image resolution.
+In $\text{FRC}$ we generate **two independent images** (having two independent background noise) of the same sample, transform them to Fourier space and then *calculate the **correlation** between the two Fourier images for each ring in the Fourier image*. The ring’s radius represents spatial frequency and so it is inversely related to the image resolution.
 
 ### The FRC Formula:
 
@@ -28,7 +28,7 @@ The Fourier Ring Correlation (FRC) is calculated as:
 
 $$FRC(u_r) = \frac{\sum_{u_r} \sum_{i,j \in \{u_r\}} F_1(i,j) \cdot F_2^*(i,j)}{\sqrt{\sum_{u_r} \sum_{i,j \in \{u_r\}} F_1^2(i,j) \cdot \sum_{u_r} \sum_{i,j \in \{u_r\}} F_2^2(i,j)}}$$
 
-where i and j are the indices of the pixels contained in the ${u_r}$ ring and $F_1$, $F_2$ are the Fourier images.
+where i and j are the indices of the pixels contained in the ${u_r}$ ring and $F_1$, $F_2$ are the Fourier images of $M_{I_{l,p}}$.
 
 *The Gif bellow qualitatively demonstrates the relation between the FRC score and the resolution (which is inversely related to the ring size in Fourier space).*
 
