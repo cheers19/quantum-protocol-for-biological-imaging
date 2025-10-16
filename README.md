@@ -28,7 +28,7 @@ The Fourier Ring Correlation (FRC) is calculated as:
 
 $$FRC(u_r) = \frac{\sum_{u_r} \sum_{i,j \in \{u_r\}} F_1(i,j) \cdot F_2^*(i,j)}{\sqrt{\sum_{u_r} \sum_{i,j \in \{u_r\}} F_1^2(i,j) \cdot \sum_{u_r} \sum_{i,j \in \{u_r\}} F_2^2(i,j)}}$$
 
-where i and j are the indices of the pixels contained in the ${u_r}$ ring and $F_1$, $F_2$ are the Fourier images of $M_I[l,p]$.
+where i and j are the indices of the pixels contained in the ${u_r}$ ring and $F_1$, $F_2$ are the Fourier images of $M_I[l,p]$ from eq. (1).
 
 *The Gif bellow qualitatively demonstrates the relation between the FRC score and the resolution (which is inversely related to the ring size in Fourier space).*
 
