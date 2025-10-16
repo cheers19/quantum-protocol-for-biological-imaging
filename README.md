@@ -1,5 +1,5 @@
 # quantum-protocol-for-biological-imaging
-In this work (see short summary, “xxx”, in the theory folder) I developed a quantum protocol that uses entangled photon pairs, denoted by “S” and “I”, to counter the inherent trade-off between **resolution** and **photodamage** to the sample.
+In this work (see 'biological simulation demo' and 'count rate simulation') I developed a quantum protocol that uses entangled photon pairs, denoted by “S” and “I”, to counter the inherent trade-off between **resolution** and **photodamage** to the sample.
 
 ## 1. Image Generation and Key Variables
 
