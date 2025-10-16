@@ -5,7 +5,13 @@ In this work (see 'biological simulation demo' and 'count rate simulation') I de
 
 The image generated can be most generally described by a formula:
 
-$$M_I[l,p] = \sum_{u} \sum_{v} M_S[u,v] K_{\alpha,n}[l+u, p+v] \tag{1}$$
+$$
+\begin{equation}
+F_I[i,j] = \sum_{u} \sum_{v} F_S[u,v] K_{\alpha,n}[i+u, j+v]
+\end{equation}
+$$
+
+$$M_I[l,p] = \sum_{u} \sum_{v} M_S[u,v] K_{\alpha,n}[l+u, p+v]$$
 
 where:
 
