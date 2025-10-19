@@ -35,7 +35,7 @@ where i and j are the indices of the pixels contained in the ${u_r}$ ring and $F
 
 <div align="center">
   <img 
-    width="820" 
+    width="840" 
     src="https://github.com/user-attachments/assets/bc95bc59-ce93-4ca2-a215-9e31472a8206" 
     alt="GIF showing FRC and resolution relation" 
     style="display: block; margin: 0 auto; max-width: 100%; height: auto;"
