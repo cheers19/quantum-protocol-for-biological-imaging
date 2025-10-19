@@ -32,9 +32,6 @@ where i and j are the indices of the pixels contained in the ${u_r}$ ring and $F
 
 *The Gif bellow qualitatively demonstrates the relation between the FRC score and the resolution (which is inversely related to the ring size in Fourier space).*
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/4338989e-6b3c-4806-9cb1-5553f4e86393" alt="תיאור GIF" width="85%" />
-</div>
 
 <div align="center">
   <img 
