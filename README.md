@@ -54,7 +54,7 @@ Simulation results show a pattern composed of **real biological refractive index
 
 <div align="center">
   <img 
-    width="500" 
+    width="580" 
     src="https://github.com/user-attachments/assets/5252ab6e-092b-457d-bac2-dde1989f45aa" 
     alt="biological simulation results" 
     style="display: block; margin: 0 auto; max-width: 100%; height: auto;"
