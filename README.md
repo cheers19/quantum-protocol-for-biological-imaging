@@ -42,8 +42,6 @@ where i and j are the indices of the pixels contained in the ${u_r}$ ring and $F
   />
 </div>
 
-![GIF](https://github.com/user-attachments/assets/bc95bc59-ce93-4ca2-a215-9e31472a8206)
-
 
 ---
 
