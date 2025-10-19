@@ -52,7 +52,13 @@ Simulation results show a pattern composed of **real biological refractive index
 * The **orange curve** represents the result of the quantum simulation for a realistic asymmetry value of $\alpha=5$.
 * The three simulation plots demonstrate that **the FRC value increases with photon dose as also evident by the appearent improved resolution**. Crucially, **the quantum protocol outperforms the classical limit on the resolution-photodamage trade-off** (see Fig. 2).
 
-<img width="616" height="374" alt="biological simulation results" src="https://github.com/user-attachments/assets/5252ab6e-092b-457d-bac2-dde1989f45aa" />
-
+<div align="center">
+  <img 
+    width="500" 
+    src="https://github.com/user-attachments/assets/5252ab6e-092b-457d-bac2-dde1989f45aa" 
+    alt="biological simulation results" 
+    style="display: block; margin: 0 auto; max-width: 100%; height: auto;"
+  />
+</div>
 
 
