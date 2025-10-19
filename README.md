@@ -35,7 +35,7 @@ where i and j are the indices of the pixels contained in the ${u_r}$ ring and $F
 
 <div align="center">
   <img 
-    width="700" 
+    width="780" 
     src="https://github.com/user-attachments/assets/bc95bc59-ce93-4ca2-a215-9e31472a8206" 
     alt="GIF showing FRC and resolution relation" 
     style="display: block; margin: 0 auto; max-width: 100%; height: auto;"
@@ -52,5 +52,7 @@ Simulation results show a pattern composed of **real biological refractive index
 * The **orange curve** represents the result of the quantum simulation for a realistic asymmetry value of $\alpha=5$.
 * The three simulation plots demonstrate that **the FRC value increases with photon dose as also evident by the appearent improved resolution**. Crucially, **the quantum protocol outperforms the classical limit on the resolution-photodamage trade-off** (see Fig. 2).
 
-<img width="616" height="374" alt="biological simulation results" src="https://github.com/user-attachments/assets/d465b85a-fdf1-4d4c-8749-5787cc693d3c" />
+<img width="616" height="374" alt="biological simulation results" src="https://github.com/user-attachments/assets/5252ab6e-092b-457d-bac2-dde1989f45aa" />
+
+
 
